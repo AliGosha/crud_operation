@@ -1,0 +1,10 @@
+^F:\CURD_APP\BUILD\WINDOWS\CMAKEFILES\DD13F7BFD98D8A367C429DFE9B215C75\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

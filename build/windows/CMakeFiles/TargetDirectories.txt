@@ -1,0 +1,10 @@
+F:/curd_app/build/windows/CMakeFiles/INSTALL.dir
+F:/curd_app/build/windows/CMakeFiles/ALL_BUILD.dir
+F:/curd_app/build/windows/CMakeFiles/ZERO_CHECK.dir
+F:/curd_app/build/windows/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+F:/curd_app/build/windows/flutter/CMakeFiles/flutter_wrapper_app.dir
+F:/curd_app/build/windows/flutter/CMakeFiles/flutter_assemble.dir
+F:/curd_app/build/windows/flutter/CMakeFiles/INSTALL.dir
+F:/curd_app/build/windows/runner/CMakeFiles/curd_app.dir
+F:/curd_app/build/windows/runner/CMakeFiles/INSTALL.dir
+F:/curd_app/build/windows/runner/CMakeFiles/ALL_BUILD.dir

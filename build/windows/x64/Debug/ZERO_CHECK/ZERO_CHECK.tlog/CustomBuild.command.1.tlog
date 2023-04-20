@@ -1,0 +1,10 @@
+^F:\CURD_APP\BUILD\WINDOWS\CMAKEFILES\DD13F7BFD98D8A367C429DFE9B215C75\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SF:/curd_app/windows -BF:/curd_app/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/curd_app/build/windows/curd_app.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
